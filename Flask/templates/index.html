@@ -1,0 +1,131 @@
+{% include "layout.html" %}
+{% block body %}
+
+<style>
+  @media screen and (min-width: 600px) {
+    #car_anim {}
+  }
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    #car_anim {}
+  }
+
+</style>
+
+
+<div class="container">
+  <div class="row h-100">
+    <div class="col-sm my-auto">
+      <div class="mx-auto">
+        <lottie-player id="car_anim" class="mx-auto" src="https://assets1.lottiefiles.com/packages/lf20_FV1Cfk.json"
+          background="transparent" speed="1" loop autoplay></lottie-player>
+      </div>
+    </div>
+    <div class="col-sm text-center my-auto">
+      <h2 style="font-family: 'Lobster', cursive;">2.El'de Aradığını Bul!</h2>
+      <p>Sadece aşağıdaki kategorilerden bir tanesini seç ve senin için önemli kriterleri bilmemize izin ver. Sonrasında
+        istersen email'inden istersen buradan senin için bulduğumuz ürünlere göz at.</p>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="col-md-12 text-center">
+    <button type="button" class="btn btn-primary btn-lg ">Hemen Başla!</button>
+    <button type="button" class="btn btn-secondary btn-lg ">Nasıl Çalışır?</button>
+
+  </div>
+</div>
+<br><br><br>
+<section class="container-fluid bg-light">
+  <div class="container-fluid">
+  
+  <div class="row">
+    <div class="col-md-12 text-center  ">
+      <div class="card" style="width:auto; margin-top: 20px;">
+        
+        <lottie-player class="card-img-top mx-auto" src="https://assets3.lottiefiles.com/packages/lf20_3Dymt9.json"  background="transparent"  speed="1"  style="width: auto; height: 300px;"hover    autoplay></lottie-player>
+        <div class="card-body">
+          <h4 class="card-title">Cep Telefonu</h4>
+          <p class="card-text">Garantisi bitmemiş bir iphone'a ne dersin?</p>
+          <a href="#" class="btn btn-primary">Haydi Bulalım!</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm text-center mx-auto">
+      <div class="card " style="width:auto; margin-top: 20px;">
+        
+        <lottie-player class="mx-auto" src="https://assets7.lottiefiles.com/private_files/lf30_7wIBsW.json"  background="transparent"  speed="1"  style="width: 400px; height: 300px;"  loop  autoplay></lottie-player>
+        <div class="card-body">
+          <h4 class="card-title">Bilgisayar</h4>
+          <p class="card-text">Sen iste yeter ki , sana bilgisayar bile toplayabiliriz!</p>
+          <a href="#" class="btn btn-primary">Haydi Bulalım!</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm text-center mx-auto">
+      <div class="card " style="width:auto; margin-top: 20px;">
+        
+        <lottie-player class="mx-auto" src="https://assets9.lottiefiles.com/datafiles/HN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h/data.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover    autoplay></lottie-player>
+        <div class="card-body">
+          <h4 class="card-title">Araba</h4>
+          <p class="card-text">Altıma sıfır kilometre gibi bir araba alırım!</p>
+          <a href="#" class="btn btn-primary">Haydi Bulalım!</a>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+</div>
+
+<div class="row mx-auto my-auto mt-20 ">
+    <div class="col-sm text-center mx-auto ">
+      <div class="card " style="width:auto; margin-top: 20px;">
+        
+        <lottie-player class="card-img-top mx-auto" src="https://assets3.lottiefiles.com/packages/lf20_3Dymt9.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"hover    autoplay></lottie-player>
+        <div class="card-body">
+          <h4 class="card-title">Cep Telefonu</h4>
+          <p class="card-text">Garantisi bitmemiş bir iphone'a ne dersin?</p>
+          <a href="#" class="btn btn-primary">Haydi Bulalım</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm text-center mx-auto">
+      <div class="card " style="width:auto; margin-top: 20px;">
+        
+        <lottie-player class="mx-auto" src="https://assets7.lottiefiles.com/private_files/lf30_7wIBsW.json"  background="transparent"  speed="1"  style="width: 400px; height: 300px;"  loop  autoplay></lottie-player>
+        <div class="card-body">
+          <h4 class="card-title">Bilgisayar</h4>
+          <p class="card-text">Sen iste yeter ki , sana bilgisayar bile toplayabiliriz!</p>
+          <a href="#" class="btn btn-primary">Haydi Bulalım!</a>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-sm text-center mx-auto">
+      <div class="card mx-auto " style="width:auto; margin-top: 20px;">
+        
+        <lottie-player class="mx-auto" src="https://assets9.lottiefiles.com/datafiles/HN7OcWNnoqje6iXIiZdWzKxvLIbfeCGTmvXmEm1h/data.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover    autoplay></lottie-player>
+        <div class="card-body">
+          <h4 class="card-title">Araba</h4>
+          <p class="card-text">Altıma sıfır kilometre gibi bir araba alırım!</p>
+          <a href="#" class="btn btn-primary">Haydi Bulalım!</a>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+{% endblock body %}
